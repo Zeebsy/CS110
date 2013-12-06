@@ -3,8 +3,8 @@ import java.util.ArrayList;
 
 public class GameOfWar extends Card {
 	private Deck deck;
-	private Player p1;
-	private Player p2;
+	protected Player p1;
+	protected Player p2;
 	
 	public GameOfWar() {
 		
